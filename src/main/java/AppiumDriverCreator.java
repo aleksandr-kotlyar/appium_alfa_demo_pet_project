@@ -39,7 +39,6 @@ public class AppiumDriverCreator {
         capabilities.setCapability("appWaitActivity",".presentation.feature.splash.activity.SplashActivity");
         capabilities.setCapability("appActivity", ".presentation.feature.splash.activity.SplashActivity");
 
-//        capabilities.setCapability("automationName","UIAutomator2");
         capabilities.setCapability("noReset", "true");
 
         capabilities.setCapability("newCommandTimeout", 10000);
